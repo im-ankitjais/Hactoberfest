@@ -1,0 +1,52 @@
+#wrapper {
+  margin-top: 130px;
+}
+
+#timer_contain {
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  #clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    width: 100%;
+    text-align: center;
+    margin-left: 60px;
+    font-size: 30px;
+  }
+}
+
+#clockdiv > div {
+  width: 20%;
+  float: left;
+  border-radius: 3px;
+  background: initial;
+  display: inline-block;
+}
+
+#clockdiv div > span {
+  padding: 15px;
+  width: 60px;
+  font-size: 25px;
+  border-radius: 50%;
+  background: #490f58;
+  display: inline-block;
+  height: 60px;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+@media (max-width:767px) {
+  .clock-wrapper {
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
