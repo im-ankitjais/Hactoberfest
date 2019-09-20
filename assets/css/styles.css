@@ -1,0 +1,186 @@
+#main_container {
+  width: 85%;
+  height: auto;
+}
+
+#img_hacktoberfest {
+  height: 350px;
+  width: 50%;
+  float: left;
+}
+
+#pic_hack {
+  height: 350px;
+  width: 100%;
+  float: left;
+}
+
+#about {
+  width: 100%;
+  height: 400px;
+}
+
+#what {
+  height: 380px;
+  width: 60%;
+  text-align: center;
+  float: left;
+}
+
+#head_hack {
+  padding: 0px;
+  margin-top: 40px;
+  margin-bottom: -22px;
+  color: rgb(4,89,174);
+}
+
+@media (min-width: 992px) {
+  #para_hack {
+    font-size: 25px;
+    width: 100%;
+    color: rgb(255,255,255);
+    margin-left: 10px;
+  }
+}
+
+#hack_head {
+  font-family: cursive;
+}
+
+#but_hack {
+  font-size: 15px;
+  float: none;
+  margin-right: 30px;
+  margin-top: -80px;
+}
+
+#brought {
+  height: 380px;
+  width: 40%;
+  text-align: center;
+  float: left;
+}
+
+#head_bro {
+  margin-top: 150px;
+  font-size: 29px;
+  color: rgba(255,255,255,.5)!important;
+  opacity: .7;
+}
+
+#img_bro {
+  width: 90%;
+  margin-top: 10px;
+  padding-left: 20px;
+  height: 120px;
+}
+
+#para_regis {
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 600;
+}
+
+@media (min-width: 992px) {
+  #register {
+    width: 50%;
+    float: left;
+    height: 400px;
+    color: white;
+    padding-left: 20px;
+  }
+}
+
+#but_regis {
+  padding: 5px;
+  font-size: 30px;
+}
+
+@media (min-width: 992px) {
+  #waiting_for {
+    width: 100%;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: 600;
+    height: auto;
+    color: white;
+  }
+}
+
+@media (min-width: 992px) {
+  #wantto {
+    font-size: 50px;
+    font-family: serif;
+  }
+}
+
+@media (min-width: 300px) {
+  #list {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  #venue {
+    width: 50%;
+    float: left;
+    font-size: 25px;
+    height: 400px;
+  }
+}
+
+#but_register {
+  text-align: center;
+  font-size: 30px;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+
+#middle {
+  width: 100%;
+  height: 400px;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  #glimes {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 500;
+    color: white;
+  }
+}
+
+#para_glimes {
+}
+
+.simple-slider {
+  height: 420px;
+  text-align: center;
+  width: 100%;
+  background: inherit;
+}
+
+.swiper-container {
+  height: 420px;
+  width: 100%;
+}
+
+.swiper-wrapper {
+  height: 420px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.swiper-slide {
+  background-image: inherit;
+  height: 400px;
+  width: 100%;
+}
+
