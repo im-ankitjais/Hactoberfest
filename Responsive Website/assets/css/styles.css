@@ -1,0 +1,302 @@
+#pic_hack {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  #pic_hack {
+    max-width: 576px;
+    height: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  #pic_hack {
+    width: 50%;
+    height: 350px;
+    float: left;
+  }
+}
+
+@media (min-width: 768px) {
+  #wrapper {
+    width: 100%;
+    float: right;
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  #timer {
+    width: 50%;
+    float: right;
+    height: 350px;
+  }
+}
+
+#head_hack {
+  text-align: center;
+  margin: 0px;
+  font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  #head_hack {
+  }
+}
+
+#what {
+  text-align: center;
+  padding: 10px;
+  margin-top: 0px;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  #what {
+    width: 60%;
+    float: left;
+    padding: 0px;
+    font-size: 20px;
+  }
+}
+
+#timer {
+  background: url(../../assets/img/newback.png);
+  color: white;
+  background-size: contain;
+}
+
+#but_hack {
+  margin-top: -40px;
+}
+
+#brought {
+  width: 100%;
+  color: rgb(149,142,142);
+}
+
+#head_bro {
+  font-size: 25px;
+  padding-left: 20px;
+  font-family: cursive;
+}
+
+#img_bro {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #brought {
+    width: 40%;
+    float: right;
+    height: 305px;
+    padding-top: 70px;
+  }
+}
+
+#so_waiting {
+  font-size: 30px;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+#waiting_for {
+  width: 100%;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  #so_waiting {
+    font-size: 40px;
+    text-align: initial;
+    float: left;
+    width: 100%;
+    font-family: monospace;
+    font-weight: 700;
+  }
+}
+
+#register {
+  font-size: 20px;
+  width: 100%;
+  color: white;
+}
+
+#but_register {
+  margin-left: 100px;
+}
+
+@media (min-width: 768px) {
+  #register {
+    width: 50%;
+    font-size: 30px;
+    letter-spacing: 4px;
+    float: left;
+    height: 400px;
+    padding-left: 30px;
+  }
+}
+
+#venue {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: white;
+}
+
+iframe {
+  width: 90%;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  #venue {
+    width: 50%;
+    float: right;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  #but_register {
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+
+#agenda {
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+
+#para {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #agenda {
+    width: 100%;
+    height: auto;
+    float: left;
+    background-image: url(../../assets/img/photos.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+#glimes {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0px;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  color: white;
+  float: left;
+  font-style: italic;
+}
+
+#pa {
+  width: 100%;
+}
+
+.simple-slider {
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  #picsl {
+    width: 100%;
+    height: 420px;
+  }
+}
+
+@media (min-width: 768px) {
+  .swiper-container {
+    height: 400px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .swiper-wrapper {
+    height: 420px;
+  }
+}
+
+#picsl {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .swiper-container {
+    height: 320px;
+  }
+}
+
+@media (max-width: 380px) {
+  #contain {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+#picc {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  #picc {
+    height: 400px;
+  }
+}
+
+#br {
+}
+
+body {
+  height: auto;
+  background: url(../../assets/img/newback.png);
+}
+
+.photo-gallery {
+  float: left;
+  width: 100%;
+}
+
+.footer-basic {
+  float: left;
+}
+
+.row.photos {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-basic {
+  width: 100%;
+}
+
+#hack {
+  font-family: initial;
+}
+
+#da {
+  margin-top: -20px;
+}
+
+#tii {
+  margin-top: -20px;
+}
+
+*{
+  font-family: Lato;
+  padding: 3px 5px;
+}

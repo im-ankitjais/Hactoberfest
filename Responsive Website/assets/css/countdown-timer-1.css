@@ -1,0 +1,28 @@
+@media (min-width: 576px) {
+  #wrapper {
+    max-width: 576px;
+    padding: 0px;
+    background-color: inherit;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  #timer {
+    max-width: 576px;
+    margin-top: 20px;
+  }
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+@media (max-width:767px) {
+  .clock-wrapper {
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
