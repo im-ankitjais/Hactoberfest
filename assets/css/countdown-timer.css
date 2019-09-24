@@ -1,41 +1,46 @@
+#timer {
+  padding: 0px;
+  background-color: #e0dede;
+  margin-top: 0px;
+}
+
 #wrapper {
-  margin-top: 130px;
+  padding: 0px;
+  background-color: inherit;
+  margin-top: 0px;
 }
 
-#timer_contain {
+.container {
   text-align: center;
-  color: white;
+  background: inherit;
 }
 
-@media (min-width: 992px) {
-  #clockdiv {
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    width: 100%;
-    text-align: center;
-    margin-left: 60px;
-    font-size: 30px;
-  }
+#clockdiv {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
 }
 
 #clockdiv > div {
-  width: 20%;
-  float: left;
+  padding: 10px;
   border-radius: 3px;
-  background: initial;
+  background: inherit;
+  width: 20%;
   display: inline-block;
 }
 
 #clockdiv div > span {
   padding: 15px;
+  font-size: 20px;
   width: 60px;
-  font-size: 25px;
   border-radius: 50%;
-  background: #490f58;
+  background: purple;
   display: inline-block;
-  height: 60px;
+  height: 50px;
 }
 
 .smalltext {

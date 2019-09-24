@@ -1,6 +1,7 @@
 .team-boxed {
   color: #313437;
   background-color: #eef4f7;
+  float: left;
 }
 
 .team-boxed p {
