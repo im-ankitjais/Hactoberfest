@@ -429,12 +429,16 @@ body {
   #img2_spon{
     margin-top: -90px;
     }
+    .column{
+      padding : 20px 60px;
+    }
   @media(min-width: 726px){
     #head_spon{
       font-size: 55px;
     }
     #img_spon{
       height :200px;
+     
     }
     #img1_spon{
       height: auto;
@@ -443,9 +447,7 @@ body {
       margin-top: 0px;
       }
   
-      .column{
-        padding : 20px 60px;
-      }
+     
 
   }
 #head_faq{
