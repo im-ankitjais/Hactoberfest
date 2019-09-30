@@ -221,22 +221,25 @@
 }
 
 iframe {
-  width: 90%;
+  width: 100%;
   padding: 20px;
+
 }
 
 @media (min-width: 768px) {
   #venue {
     width: 50%;
     float: right;
-    margin-top: 0px;
-    
-    
+    margin-top: -40px;
+  }
+  iframe{
+    /* padding-right: 70px; */
+    width :520px ;height: 350px;
   }
 }
 @media (min-width: 768px) {
   #venue p {
-    padding-left: 30px;
+    padding-left: 20px;
     
   }
 }
