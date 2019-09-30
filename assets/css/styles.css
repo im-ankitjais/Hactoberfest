@@ -37,11 +37,13 @@
 #ann{
    height: auto;
    text-align: left;
+   width: 100%;
+   float: left;
    
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 568px) {
   #ann{
       
   }
@@ -158,11 +160,10 @@
 @media (min-width: 768px) {
   #brought {
     width: 40%;
-    float: right;
+    float: left;
     font-size: 35px;
     padding-top: 70px;
     margin-left: 0px;
-    height: 400px;
   }
 }
 
@@ -419,6 +420,10 @@ body {
     margin-top: 60px !important;
     width: 100%; 
     }
+    #sponso{
+      float: left;
+      height: auto;
+    }
 
   #head_spon{
     font-size: 40px;
@@ -457,4 +462,10 @@ body {
 }
 #accordion{
   margin : 30px auto;
+  
+  height: auto;
+}
+#sectionn{
+   width: 100%;
+   float: left;
 }
