@@ -39,6 +39,7 @@
    text-align: left;
    width: 100%;
    float: left;
+   margin: 40px auto;
    
 
 }
@@ -58,7 +59,7 @@
 }
 @media (min-width: 768px) {
   #head_ann{
-       font-size: 38px;
+       font-size: 45px;
       ;
   }
 }
@@ -253,6 +254,7 @@ iframe {
   width: 100%;
   height: auto;
   color: white;
+  margin: 40px auto;
 }
 
 #para {
@@ -273,18 +275,25 @@ iframe {
     background-image: url(../../assets/img/photos.png);
     background-size: contain;
     background-repeat: no-repeat;
+    margin: 20px auto;
+    
   }
 }
 
 #glimes {
   font-size: 30px;
   font-weight: 700;
-  margin: 0px;
+  margin: 30px 0px -40px 0px;
   text-align: center;
   height: auto;
   width: 100%;
   color: rgb(159,244,209);
   float: left;
+}
+@media (min-width: 768px) {
+  #glimes {
+    margin: 30px 0px -10px 0px;
+  }
 }
 #peop{
   background-color: rgb(180, 176, 176);
@@ -417,8 +426,8 @@ body {
   }
 
   #spon{
-    
     width: 100%; 
+    padding: 0px 15px;
     }
     #sponso{
       float: left;
@@ -484,4 +493,13 @@ body {
 #sectionn{
    width: 100%;
    float: left;
+   margin : 20px auto;
+}
+.team-boxed{
+   margin-top: 20px;
+}
+@media(min-width: 768px){
+  .team-boxed{
+    margin-top: 0px;
+  }
 }
