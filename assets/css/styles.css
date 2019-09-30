@@ -4,8 +4,8 @@
 }
 
 #whole_body{
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
   height: auto;
 }
 #navv{
@@ -37,6 +37,7 @@
 #ann{
    height: auto;
    text-align: left;
+   
 
 }
 
@@ -56,6 +57,7 @@
 @media (min-width: 768px) {
   #head_ann{
        font-size: 38px;
+      ;
   }
 }
 
@@ -354,7 +356,7 @@ body {
   background: #121248;
 }
 
-.photo-gallery {
+.photo {
   float: left;
   width: 100%;
 }
@@ -386,3 +388,71 @@ body {
   margin-top: -20px;
 }
 
+@media(min-width:726px ){
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 0px ;
+}
+}
+  .column {
+  width: 100%;
+  }
+
+  #spon{
+    margin-top: 60px !important;
+    width: 100%; 
+    }
+
+  #head_spon{
+    font-size: 40px;
+    text-align: center;
+    font-weight:800;
+    color: rgb(159,244,209);
+  }
+  #img2_spon{
+    margin-top: -90px;
+    }
+  @media(min-width: 726px){
+    #head_spon{
+      font-size: 55px;
+    }
+    #img_spon{
+      height :200px;
+    }
+    #img1_spon{
+      height: auto;
+    }
+    #img2_spon{
+      margin-top: 0px;
+      }
+  
+      .column{
+        padding : 20px 60px;
+      }
+
+  }
+#head_faq{
+  color:rgb(159,244,209);
+  font-size: 35px;
+  font-weight: 600;
+}
+#accordion{
+  margin : 30px auto;
+}
