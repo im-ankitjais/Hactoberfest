@@ -417,12 +417,13 @@ body {
   }
 
   #spon{
-    margin-top: 60px !important;
+    
     width: 100%; 
     }
     #sponso{
       float: left;
       height: auto;
+      margin-top: -80px;
     }
 
   #head_spon{
@@ -436,10 +437,25 @@ body {
     }
     .column{
       padding : 20px 60px;
+      background-color: white;
+      border: none;
+      
+    }
+    .row{
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    #img_spon{
+     padding-top: 40px;
+     
     }
   @media(min-width: 726px){
     #head_spon{
       font-size: 55px;
+    }
+    .row{
+      margin-left: 100px;
+      margin-right: 100px;
     }
     #img_spon{
       height :200px;
