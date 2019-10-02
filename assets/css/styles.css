@@ -89,13 +89,6 @@
   }
 }
 
-@media (min-width: 768px) {
-  #timer {
-    width: 50%;
-    float: right;
-    height: 350px;
-  }
-}
 
 #head_hack {
   text-align: center;
@@ -129,12 +122,6 @@
     font-size: 20px;
     padding-left: 20px;
   }
-}
-
-#timer {
-  background: initial;
-  color: white;
-  background-size: contain;
 }
 
 #but_hack {
@@ -370,37 +357,26 @@ iframe {
   }
 }
 
-#br {
-}
 
 body {
   height: auto;
   background: #121248;
 }
 
-.photo {
-  float: left;
-  width: 100%;
-}
+
 
 .footer-basic {
   float: left;
 }
 
-.row.photos {
-  float: left;
-  width: 100%;
-  text-align: center;
-}
+
 
 .footer-basic {
   width: 100%;
 }
 
 
-.intro{
-  color: rgb(159,244,209);
-}
+
 
 #da {
   margin-top: -20px;
@@ -418,78 +394,6 @@ body {
   padding: 0px;
 }
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 0px ;
-}
-}
-  .column {
-  width: 100%;
-  }
-
-  #spon{
-    width: 100%; 
-    padding: 0px 15px;
-    }
-    #sponso{
-      float: left;
-      height: auto;
-      margin-top: -80px;
-    }
-
-  #head_spon{
-    font-size: 40px;
-    text-align: center;
-    font-weight:800;
-    color: rgb(159,244,209);
-  }
-  #img2_spon{
-    margin-top: -90px;
-    }
-    .column{
-      padding : 20px 60px;
-      background-color: white;
-      border: none;
-      
-    }
-    .row{
-      margin-left: 30px;
-      margin-right: 30px;
-    }
-    #img_spon{
-     padding-top: 40px;
-     
-    }
-  @media(min-width: 726px){
-    #head_spon{
-      font-size: 55px;
-    }
-    .row{
-      margin-left: 100px;
-      margin-right: 100px;
-    }
-    #img_spon{
-      height :200px;
-     
-    }
-    #img1_spon{
-      height: auto;
-    }
-    #img2_spon{
-      margin-top: 0px;
-      }
-  
-     
 
   }
 #head_faq{
@@ -515,6 +419,7 @@ body {
     margin-top: 0px;
   }
 }
+
 #ann2 {
      height: auto;
    text-align: left;
@@ -558,3 +463,4 @@ body {
 
   }
 }
+

@@ -7,6 +7,23 @@
 .team-boxed p {
   color: #7d8285;
 }
+#speak {
+  font-size: 40px !important;
+ width: 100%;
+ padding: 30px 30px;
+ color: rgb(159,244,209);
+  text-align: center;
+}
+@media(max-width:768px) {
+  
+  #speak {
+   font-size: 60px !important;
+  width: 100%;
+  padding: 0px;
+  color: rgb(159,244,209);
+   text-align: center;
+ }
+}
 
 .team-boxed h2 {
   font-weight: bold;
