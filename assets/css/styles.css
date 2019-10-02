@@ -61,6 +61,8 @@
 @media (min-width: 768px) {
   #head_ann{
        font-size: 45px;
+       text-align: left;
+       padding-left: 40px;
       ;
   }
 }
@@ -188,6 +190,7 @@
     text-align: initial;
     float: left;
     width: 100%;
+    padding-left: 40px;
     font-weight: 700;
   }
 }
@@ -208,6 +211,7 @@
     width: 50%;
     font-size: 30px;
     letter-spacing: 4px;
+    padding-left: 40px;
     float: left;
     height: 400px;
   }
@@ -232,7 +236,7 @@ iframe {
   #venue {
     width: 50%;
     float: right;
-    margin-top: -40px;
+    margin-top: -10px;
   }
 }
 @media( min-width: 576px){
@@ -532,6 +536,8 @@ body {
 @media (min-width: 768px) {
   #head_ann2{
        font-size: 45px;
+       text-align: left;
+       padding-left: 40px;
       ;
   }
 }
