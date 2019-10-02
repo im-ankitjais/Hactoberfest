@@ -130,7 +130,7 @@
 
 #brought {
   width: 100%;
-  color: rgb(149,142,142);
+  color: rgb(159,244,209);
   text-align: center;
   font-size: 30px;
   text-align: center;
@@ -161,7 +161,7 @@
 #so_waiting {
   font-size: 30px;
   text-align: justify;
-  margin-top: 30px;
+  margin-top: 50px;
   padding-left: 10px;
   padding-right: 5px;
 }
@@ -179,6 +179,7 @@
     width: 100%;
     padding-left: 40px;
     font-weight: 700;
+    margin-top: 30px;
   }
 }
 
@@ -208,7 +209,7 @@
   font-size: 20px;
   font-weight: 500;
   margin-top: 20px;
-  padding-left: 10px;
+  padding-left:10px;
   color: white;
 }
 
@@ -377,7 +378,6 @@ body {
 
 
 
-
 #da {
   margin-top: -20px;
 }
@@ -425,7 +425,7 @@ body {
    text-align: left;
    width: 100%;
    float: left;
-   margin: 40px auto;
+   margin: 0px auto;
 }
 
 #head_ann2 {
@@ -433,7 +433,7 @@ body {
     font-size: 30px;
     font-weight: 800;
     padding-left: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
     text-align: center;
 
 }
