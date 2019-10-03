@@ -11,6 +11,8 @@
   text-align: center;
 }
 
+
+
 @media(max-width:768px) {
   
    .intro {
@@ -24,6 +26,7 @@
     margin-left: 0px !important;
     padding: 10px 30px;
   }
+ 
 }
 
  
@@ -41,4 +44,18 @@
   background-color: white;
   padding-left: 0px;
 
+}
+#dev,#git,#elastic,#build{
+  margin-top: -50px;
+}
+
+@media(min-width: 768px){
+  #dev,#git,#elastic{
+    margin-top: 0px;
+  }
+  #build{
+    padding-top: 100px;
+    margin-top: 0px;
+
+  }
 }
