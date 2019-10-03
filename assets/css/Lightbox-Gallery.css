@@ -45,17 +45,20 @@
   padding-left: 0px;
 
 }
-#dev,#git,#elastic,#build{
+#git,#elastic,#buil,#digi{
   margin-top: -50px;
 }
+#dev{
+  margin-top: -130px;
+}
+
 
 @media(min-width: 768px){
-  #dev,#git,#elastic{
+  #dev,#git,#elastic,#digi{
     margin-top: 0px;
   }
   #build{
     padding-top: 100px;
     margin-top: 0px;
-
   }
 }

@@ -105,11 +105,12 @@
 }
 
 #what {
-  text-align: center;
+  text-align: left;
   padding: 10px;
   margin-top: 0px;
   color: white;
-  font-size: 25px !important;
+  font-size: 20px !important;
+  padding-left:20px;
   
 }
 
@@ -120,14 +121,20 @@
     padding: 0px;
     margin-top: -30px;
     font-size: 20px;
-    padding-left: 20px;
+    padding-left: 40px;
   }
 }
+ 
 
 #but_hack {
   margin-top: -40px;
+  margin-left: 75px;
 }
-
+@media(min-width: 768px){
+  #but_hack {
+    margin-left: 300px;
+  }
+}
 #brought {
   width: 100%;
   color: rgb(159,244,209);
@@ -256,7 +263,7 @@ iframe {
   color: white;
   margin: 40px auto;
 }
-
+ 
 #para {
   font-size: 30px;
   text-align: center;
