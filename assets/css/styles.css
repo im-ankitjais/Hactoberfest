@@ -70,6 +70,7 @@
 #list_ann{
        color: white;
        font-size: 20px;
+    text-align: justify;
 
        padding-right: 10px;
 }
@@ -78,6 +79,7 @@
       font-size: 20px;
       padding-left: 40px;
       padding-right: 40px;
+      text-align: justify;
 
   }
 }
@@ -456,9 +458,9 @@ body {
 
 
 #list_ann2 {
-    color: white;
+       color: white;
        font-size: 20px;
-
+       text-align: justify;
        padding-right: 10px;
 }
 
@@ -467,7 +469,12 @@ body {
       font-size: 20px;
       padding-left: 40px;
       padding-right: 40px;
+      text-align: justify;
 
   }
 }
 
+
+#para_hack {
+    text-align: justify;
+}

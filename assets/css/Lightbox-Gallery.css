@@ -1,6 +1,6 @@
 .photo-gallery {
-  float: left;
-  margin-left: 90px !important;
+  
+  margin: 0px auto !important;
 }
 
  .intro {
@@ -23,7 +23,7 @@
     text-align: center;
   }
   .photo-gallery{
-    margin-left: 0px !important;
+    
     padding: 10px 30px;
   }
  
@@ -62,3 +62,15 @@
     margin-top: 0px;
   }
 }
+
+
+#appwrite{
+  margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+
+@media(min-width: 768px){
+  #appwrite{
+    margin-top: 25px;
+  }
