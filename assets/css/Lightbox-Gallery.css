@@ -1,6 +1,6 @@
 .photo-gallery {
-  
-  margin: 0px auto !important;
+  float:left;
+  margin-left: 170px !important;
 }
 
  .intro {
@@ -74,3 +74,4 @@
   #appwrite{
     margin-top: 25px;
   }
+
