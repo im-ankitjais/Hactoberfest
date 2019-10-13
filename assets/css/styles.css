@@ -67,12 +67,15 @@
   }
 }
 
-#list_ann{
-       color: white;
+#list_ann {
+       color: white ;
        font-size: 20px;
     text-align: justify;
 
        padding-right: 10px;
+}
+#l{
+color:white;
 }
 @media (min-width: 768px) {
   #list_ann{
@@ -485,6 +488,7 @@ body {
    width: 100%;
    float: left;
    margin: 60px auto 40px auto;
+  
 }
 
 #head_ann3 {
@@ -502,12 +506,11 @@ body {
        font-size: 45px;
        text-align: left;
        padding-left: 40px;
-      ;
   }
 }
 
 #list_ann3 {
-       color: white;
+       color: white !important;
        font-size: 20px;
        text-align: justify;
        padding-right: 10px;
