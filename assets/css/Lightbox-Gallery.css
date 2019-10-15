@@ -43,7 +43,12 @@
 .row.photos{
   background-color: white;
   padding-left: 0px;
-
+  margin: 0px -23px;
+}
+@media(min-width:576px){
+  .row.photos{
+    margin: 0px auto;
+  }
 }
 #git,#elastic,#buil,#digi{
   margin-top: -50px;

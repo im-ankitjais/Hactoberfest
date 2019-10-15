@@ -490,6 +490,11 @@ body {
    margin: 60px auto 40px auto;
   
 }
+@media(min-width:576px){
+  #ann3{
+    padding-left: 80px;
+  }
+}
 
 #head_ann3 {
     color: rgb(159,244,209);

@@ -20,6 +20,7 @@
    font-size: 60px !important;
   width: 100%;
   padding: 0px;
+  margin: 0px auto !important;
   color: rgb(159,244,209);
    text-align: center;
  }
@@ -106,3 +107,11 @@
   opacity: 1;
 }
 
+  .row.people{
+            margin: 0px -10px ;
+  }
+@media(min-width:676px){
+.row.people{
+          margin: -50px auto ;
+}
+}
