@@ -51,7 +51,7 @@
   }
 }
 #git,#elastic,#buil,#digi{
-  margin-top: -50px;
+  margin-top: 0px;
 }
 #dev{
   margin-top: -130px;
@@ -71,7 +71,7 @@
 
 #appwrite{
   margin-top: -50px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 
@@ -79,3 +79,15 @@
   #appwrite{
     margin-top: 30px;
   }
+    
+#gojek{
+  margin-top: -40px;
+    margin-bottom: 0px;
+}
+
+@media(min-width: 768px){
+  #gojek{
+    margin-top: 0px;
+  }
+
+    
